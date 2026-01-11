@@ -53,3 +53,14 @@ dkms.conf
 
 # debug information files
 *.dwo
+# ===== CUDA =====
+*.ptx
+*.cubin
+*.fatbin
+
+# ===== Build directories =====
+build/
+bin/
+
+# ===== Linux =====
+*~
