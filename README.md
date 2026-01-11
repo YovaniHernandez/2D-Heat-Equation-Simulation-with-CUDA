@@ -7,7 +7,10 @@ CUDA Acceleration: Parallel implementation using a 5-point stencil.Shared Memory
 
 Visualization: Python scripts to generate heatmaps and animations from simulation data.
 
-The simulation uses the explicit FTCS scheme:Stability Condition: [No verificado] $r = \frac{\alpha \Delta t}{h^2} \le 0.25$Boundary Conditions: Constant Dirichlet ($T=10$).Initial State: Uniform temperature with a high-heat circular source in the center.
+The simulation uses the explicit FTCS scheme:
+Stability Condition: r<=0.25
+Boundary Conditions: Constant Dirichlet T=10.
+Initial State: Uniform temperature with a high-heat circular source in the center.
 
   Prerequisites
 NVIDIA GPU (Compute Capability 3.0+)
