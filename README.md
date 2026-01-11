@@ -19,6 +19,8 @@ Metric        Sequential(CPU)       CUDA (GPU)
 Execution  Time         27.545s     0.069s 
 Center Temp (5k steps)  100.000     100.000
 Calculated Speedup      1x          approx 398.5x
+
+
 # Clone the repository
 git clone https://github.com/youruser/cuda-heat-equation.git
 
