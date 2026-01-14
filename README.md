@@ -23,6 +23,7 @@ Execution  Time         27.545s     0.069s
 Center Temp (5k steps)  100.000     100.000
 Calculated Speedup      1x          approx 398.5x
 
+with a Intel i7 13620H, Nvidia 3050 RTX, 16 RAM
 
 # Clone the repository
 git clone https://github.com/youruser/cuda-heat-equation.git
@@ -35,4 +36,3 @@ nvcc heat_diffusion.cu -o heat_diffusion
 
 # Generate plots
 python3 visualize_results.py
-
